@@ -3,6 +3,13 @@
     padding: 0;
     margin: 0;
 }
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+h1 .seo {
+    color: #d9dcd6;
+}
 a {
     color: #ffffff;
     text-decoration: none;
@@ -13,18 +20,16 @@ p {
 body {
     background-color: #d9dcd6;
 }
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-}
-header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-header h1 .seo {
-    color: #d9dcd6;
 }
 header div {
     padding-top: 15px;
@@ -39,6 +44,16 @@ header div ul {
 header div ul li {
     display: inline-block;
     margin-left: 25px;
+}
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
 }
 footer {
     padding: 30px;
@@ -64,21 +79,6 @@ footer h2 {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
 }
 .benefit-lead {
     margin-bottom: 32px;
