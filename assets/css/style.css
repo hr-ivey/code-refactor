@@ -37,6 +37,7 @@ main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* This ensures the images inside main do not exceed 200px. */
 main img {
     max-height: 200px;
 }
@@ -60,6 +61,7 @@ header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* This content - "aside" - will appear to the right of the main content. */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -89,10 +91,11 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+/* Changes the color of these specific letters in "Horiseon". */
 .seo {
     color: #d9dcd6;
 }
-.hero {
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -100,11 +103,11 @@ footer {
     background-size: cover;
     background-position: center;
 }
-.search-engine-optimization img, .social-media-marketing img {
+#search-engine-optimization img, #social-media-marketing img {
     float: left;
     margin-right: 25px;
 }
-.online-reputation-management img{
+#online-reputation-management img{
     float: right;
     margin-left: 25px;
 }
