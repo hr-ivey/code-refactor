@@ -9,4 +9,5 @@ Starter code and files provided by full stack development course at Georgia Inst
 ## Questions
 
 🌲 [Email me](mailto:haleyrivey@gmail.com)
+
 🌲 [Find me on Github](https://github.com/hr-ivey)  
